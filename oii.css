@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position:fixed;
+    z-index: 1;
+
+}
+.logo img{
+    padding-left: 20px;
+    height: 62px;
+    margin: 12px 10px;
+}
+ul{
+    padding-left: 130px;
+    list-style: none;
+    display: flex;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1px 20px;
+    font-size: 29px;
+    transition: all 0.2s;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    height: 100%;
+    width: 1600px;
+    z-index: -1;
+}
+ul li a:hover{
+    color: orange;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px ;
+    height: 710px;
+}
+#home::before{
+    content: "";
+    background:url(bg1.png) no-repeat center center/cover;
+    position: absolute;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.primary{
+    font-size: 6rem;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+#home h1{
+    color: white;
+
+    font-family: 'Rubik Moonrocks', sans-serif;
+}
+p{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+.main{
+    text-shadow: 1.5px 1.5px black;
+    margin: 12px;
+
+}
+.interact{
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    margin: 8px;
+}
+#btn{
+    padding: 15px 22px;
+    margin: 25px;
+    color: white;
+    background-color:orangered;
+    font-size: 20px;
+    border-radius: 25px;
+    
+}
+#btn a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+#btn:hover{
+    background-color: rgb(224, 102, 57);
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+
+}
+.services{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.services .box{
+   
+    border: 2px solid orangered;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 23px;
+    background-color: rgb(247, 237, 237);
+    width: 500px;
+    
+}
+
+.services .box img{
+    height: 200px;
+    margin: auto;
+    display: block;
+    margin-bottom: -50px;
+}
+.content{
+    color: black;
+    font-size: 20px;
+}
+.prem{
+
+    font-size: 4rem;
+    padding: 10px;
+    color: black;
+}
+#services-container::before{
+    content: "";
+    
+    position: absolute;
+    opacity: 0.3;
+    height: 480px;
+    z-index: -1;
+}
+.secondary{
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('ritik.png') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1rem;
+    border: 2px solid black;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+#seller{
+    position: relative;
+}
+#seller::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('ritik1.png') no-repeat center center/cover;
+
+}
+.radio{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.3rem;
+}
+#wrapper
+{
+  border: 1px solid #888;
+  border-radius: 9px;
+  display: inline-block;
+  padding:10px;
+  width: 100%;
+  border: 2px solid black;
+  background-color: white;
+}
+ 
+.submit button {
+    background-color:orangered;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    border-radius: 23px;
+    
+  }
+  
+.submit button:hover {
+    background-color: blue;
+    transition: all 0.3s ease 0s;
+}
+
+.foot{
+    background-color: orangered;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 11px ;
+    color:rgb(212, 214, 217);
+    opacity: 0.8;
+}
+
